@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bitsandbytes = "*"
+transformers = {git = "git+https://github.com/huggingface/transformers.git"}
+peft = {git = "git+https://github.com/huggingface/peft.git"}
+accelerate = "*"
+datasets = "*"
+evaluate = "*"
+huggingface-hub = "*"
+trl = "*"
+tensorboard = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
